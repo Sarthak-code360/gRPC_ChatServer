@@ -20,12 +20,10 @@ yarn install
 ## Usage
 Instructions for running the project.
 
-```
+```bash
 # Start the gRPC server
 yarn start
-```
 
-```
 # Runs out the client
 yarn client
 ```
