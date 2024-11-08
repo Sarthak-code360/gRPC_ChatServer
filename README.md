@@ -5,3 +5,10 @@
 ```
 yarn install
 ```
+
+### Runs the gRPC server
+
+```
+yarn start
+```
+
