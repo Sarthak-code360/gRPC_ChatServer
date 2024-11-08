@@ -12,3 +12,10 @@ yarn install
 yarn start
 ```
 
+### Runs the client
+
+```
+yarn client
+```
+
+#### Note: 
