@@ -19,3 +19,7 @@ yarn client
 ```
 
 #### Note: 
+Make sure when you run out of clients add the client's name
+```
+yarn client <username>
+```
