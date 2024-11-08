@@ -17,20 +17,21 @@ cd gRPC_ChatServer
 yarn install
 ```
 
-### Runs the gRPC server
+## Usage
+Instructions for running the project.
 
 ```
+# Start the gRPC server
 yarn start
 ```
 
-### Runs the client
-
 ```
+# Runs out the client
 yarn client
 ```
 
 #### Note: 
-Make sure when you run out of clients add the client's name
+Make sure when you run out of clients add the client's name.
 ```
 yarn client <username>
 ```
