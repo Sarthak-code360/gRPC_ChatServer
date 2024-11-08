@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package randomPackage;
+
+service Random {
+  rpc PingPong(PingRequest) returns (PongResponse) {};
+  rpc RandomNumbers(NumberRequest) returns (stream NumberResponse) {};
+  rpc TodoList(stream TodoRequest) returns (TodoResponse) {};
+  rpc Chat(stream ChatRequest) returns (stream ChatResponse) {};
+}
+
+message PingRequest {
+  string message = 1;
+}
+
+message PongResponse {
+  string message = 1;
+}
