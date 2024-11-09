@@ -61,7 +61,7 @@ function onClientReady() {
   })
 
   const username = process.argv[2]
-  if (!username) console.error("No username, can't join chat"), process.exit()
+  if (!username) console.error("No username, can't join chat add the username to the client command"), process.exit()
 
 
   const metadata = new grpc.Metadata()
