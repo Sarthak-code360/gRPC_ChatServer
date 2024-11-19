@@ -24,7 +24,7 @@ Instructions for running the project.
 # Start the gRPC server
 yarn start
 
-# Runs out the client
+# Runs out the client with name
 yarn client
 ```
 
